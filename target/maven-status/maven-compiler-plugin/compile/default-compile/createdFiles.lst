@@ -1,0 +1,5 @@
+com\vocalink\model\TransactionResult.class
+com\vocalink\App.class
+com\vocalink\service\impl\ParserService.class
+com\vocalink\service\Service.class
+com\vocalink\model\Transaction.class

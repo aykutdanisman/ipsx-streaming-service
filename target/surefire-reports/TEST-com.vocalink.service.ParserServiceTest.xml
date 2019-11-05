@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vocalink.service.ParserServiceTest" time="0.138" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Local_Workspaces\workspace_SBoot_ex\ipsx-streaming-service\target\test-classes;C:\Local_Workspaces\workspace_SBoot_ex\ipsx-streaming-service\target\classes;C:\Users\aykut\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-stream_2.13\2.6.0-RC2\akka-stream_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-actor_2.13\2.6.0-RC2\akka-actor_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\aykut\.m2\repository\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-protobuf-v3_2.13\2.6.0-RC2\akka-protobuf-v3_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\com\google\protobuf\protobuf-java\3.10.0\protobuf-java-3.10.0.jar;C:\Users\aykut\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\aykut\.m2\repository\com\typesafe\ssl-config-core_2.13\0.4.0\ssl-config-core_2.13-0.4.0.jar;C:\Users\aykut\.m2\repository\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-stream-testkit_2.13\2.6.0-RC2\akka-stream-testkit_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-testkit_2.13\2.6.0-RC2\akka-testkit_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\aykut\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\aykut\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\aykut\AppData\Local\Temp\surefire8492948816855672471\surefirebooter15877505029335148231.jar C:\Users\aykut\AppData\Local\Temp\surefire8492948816855672471 2019-11-05T13-05-12_478-jvmRun1 surefire2238464304850574327tmp surefire_0784222400918648377tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Local_Workspaces\workspace_SBoot_ex\ipsx-streaming-service\target\test-classes;C:\Local_Workspaces\workspace_SBoot_ex\ipsx-streaming-service\target\classes;C:\Users\aykut\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-stream_2.13\2.6.0-RC2\akka-stream_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\org\scala-lang\scala-library\2.13.0\scala-library-2.13.0.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-actor_2.13\2.6.0-RC2\akka-actor_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\aykut\.m2\repository\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-protobuf-v3_2.13\2.6.0-RC2\akka-protobuf-v3_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\com\google\protobuf\protobuf-java\3.10.0\protobuf-java-3.10.0.jar;C:\Users\aykut\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\aykut\.m2\repository\com\typesafe\ssl-config-core_2.13\0.4.0\ssl-config-core_2.13-0.4.0.jar;C:\Users\aykut\.m2\repository\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-stream-testkit_2.13\2.6.0-RC2\akka-stream-testkit_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\com\typesafe\akka\akka-testkit_2.13\2.6.0-RC2\akka-testkit_2.13-2.6.0-RC2.jar;C:\Users\aykut\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\aykut\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\aykut\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aykut"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Local_Workspaces\workspace_SBoot_ex\ipsx-streaming-service"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aykut\AppData\Local\Temp\surefire8492948816855672471\surefirebooter15877505029335148231.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="aykut"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aykut\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aykut\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\Local_Workspaces\workspace_SBoot_ex\ipsx-streaming-service"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\app\aykut\product\11.2.0\client_1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-9.0.1\bin;C:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\MobileFirst-CLI;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Google\Google Apps Sync\;C:\Program Files (x86)\Google\Google Apps Migration\;c:\Spark\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Docker Toolbox;C:\Users\aykut\AppData\Local\Microsoft\WindowsApps;C:\Users\aykut\AppData\Local\atom\bin;C:\Users\aykut\AppData\Local\Microsoft\WindowsApps;C:\Users\aykut\AppData\Local\Programs\Fiddler;C:\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;;C:\Program Files\Microsoft VS Code\bin;C:\Users\aykut\AppData\Roaming\npm;C:\Users\aykut\AppData\Local\Yarn\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="forGivenChar_ParserService_ResultsERROR" classname="com.vocalink.service.ParserServiceTest" time="0.029">
+    <failure message="&#10;Expected: is null&#10;     but: was &lt;Optional[ERROR]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is null
+     but: was <Optional[ERROR]>
+	at com.vocalink.service.ParserServiceTest.forGivenChar_ParserService_ResultsERROR(ParserServiceTest.java:64)
+]]></failure>
+    <system-out><![CDATA[abc]]></system-out>
+  </testcase>
+  <testcase name="forGivenNumber_ParserService_ResultsSUCCESS" classname="com.vocalink.service.ParserServiceTest" time="0.004"/>
+</testsuite>
